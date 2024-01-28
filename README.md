@@ -1,2 +1,2 @@
-# Pagination
-- pagination in a REST API using Python
+# alx-backend
+- Repository of backend-specific projects
