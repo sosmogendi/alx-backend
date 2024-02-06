@@ -26,3 +26,6 @@ msgstr "Bienvenue chez Holberton"
 msgid "home_header"
 msgstr "Bonjour monde!"
 
+#: templates/index.html:13
+msgid "current_time_is"
+msgstr "Nous sommes le %(current_time)s."
