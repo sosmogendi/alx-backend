@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 '''
-    Module for Babel i18n.
+    Module for Babel i18n. Initialize Flask application and set up Flask-Babel
 '''
 
 from flask import Flask, render_template
@@ -13,7 +13,7 @@ def helloWorld() -> str:
     '''
         Render template for Babel usage.
     '''
-    return render_template('0-index.html', title='Welcome to Holberton', header='Hello world')
+    return render_template('0-index.html')
 
 
 if __name__ == '__main__':
